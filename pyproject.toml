@@ -1,0 +1,18 @@
+[project]
+name = "adk-maze-agent"
+version = "0.1.0"
+description = "ADK Maze Agent demonstration of session state vs events."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
