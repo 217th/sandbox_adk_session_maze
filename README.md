@@ -1,8 +1,6 @@
 # ADK Maze Agent
 
-Учебный агент, демонстрирующий работу с состоянием (`session.state`), flash-данными и журналом событий (`session.events`) в [Google ADK](https://google.github.io/adk-docs/). 
-
-![[adk_img1.png]]
+Учебный агент, демонстрирующий работу с состоянием (`session.state`), flash-данными и журналом событий (`session.events`) в Google ADK: https://google.github.io/adk-docs/. 
 
 Пользователь перемещается по сетке 3×3, избегает стен и фиксирует каждую попытку хода. Проект показывает, как отделять:
 
